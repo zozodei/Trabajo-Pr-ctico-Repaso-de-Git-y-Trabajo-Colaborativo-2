@@ -8,7 +8,7 @@ body {
 	font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 	color: #ecebff;
 	background:
-		radial-gradient(circle at 10% 15%, #2c205e 0, transparent 32%),
+		radial-gradient(circle at 10% 15%, #205e35 0, transparent 32%),
 		radial-gradient(circle at 85% 20%, #1e2f66 0, transparent 28%),
 		linear-gradient(140deg, #090b1d 0%, #111733 40%, #0b1024 100%);
 	background-size: 150% 150%, 150% 150%, 180% 180%;
