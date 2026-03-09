@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No as a Service | Elegante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rain-layer" id="rainLayer" aria-hidden="true"></div>
+    <main class="page">
+        <section class="hero">
+            <p class="eyebrow">No as a Service</p>
+            <h1>El arte de decir que no,<br>con excusas memorables.</h1>
+            <p class="subtitle">Pide una respuesta y recibe una excusa perfectamente inútil para no hacer nada.</p>
+        </section>
+
+        <section class="card" aria-live="polite">
+            <p class="status" id="status">El oráculo está calentando su negatividad…</p>
+            <div class="fortune-shell">
+                <div class="fortune-core">
+                    <blockquote class="phrase" id="phrase">Haz clic y recibe una negativa profesional.</blockquote>
+                </div>
+            </div>
+            <p class="reject-stamp" id="rejectStamp" aria-hidden="true">DENEGADO</p>
+            <div class="meta">
+                <span class="badge" id="source">Sin juicio emitido</span>
+                <span class="time" id="time">--:--</span>
+            </div>
+            <button class="cta" id="nextPhraseBtn" type="button">Dame otra excusa</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
